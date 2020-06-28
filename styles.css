@@ -1,0 +1,155 @@
+/*Containers and Divs*/
+.titlesection {
+  height: 500px;
+  background-image: url(dad2.jpg);
+  background-size: cover;
+}
+
+/*Texts*/
+.big-heading {
+  margin-top: 25px;
+  font-family: 'Courgette', serif;
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-family: 'Courgette', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Title Section */
+#title {
+  text-align: center;
+  color:white;
+}
+
+/*Nav Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Sriracha", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/*Message Section*/
+
+#message-section{
+  justify-content: center;
+  text-align:center;
+  padding:2%;
+}
+
+
+.first-message-text{
+  color:#f0a500;
+  margin-top: 25%;
+}
+
+.pops{
+ width:75%;
+ height:auto;
+}
+
+
+.second-message-text{
+  color:#f0a500;
+    margin-top: 25%;
+}
+
+
+.final-message:hover{
+  background-color: #f0a500;
+  color:white;
+}
+
+.final-message{
+  margin: 5%;
+  padding:2%;
+  text-align:center;
+  color:#f0a500;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 2%;
+  transition: .7s ease;
+}
+
+
+
+
+#End{
+  background-image: url(abstract.jpg);
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  margin-top:5%;
+  padding:3%;
+  color:#fff;
+  text-align:center;
+  position: relative;
+}
+
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Sriracha',serif;
+}
+
+ .regards{
+  float: right;
+  padding:2%;
+}
+
+
+h4{
+  font-family: 'Sriracha',serif;
+}
+
+.ima:hover{
+  border-style: solid;
+  border-width: 5px;
+}
+
+.ima{
+  margin-bottom: 2%;
+  height:auto;
+  width:40%;
+  border-radius: 2%;
+  transition:.5s ease;
+}
+
+.grey{
+  padding:1%;
+  text-align: left;
+  height: 50px;
+  width:100%;
+  background-color: #dbdbdb;
+}
+
+
+.social-icon{margin:5px;}
+
+.copyright {
+  font-size: 1rem;
+  color: #8f8f8f;
+  font-family: 'Sriracha',serif;
+}
+
+
+@media screen and (max-width:980px){
+.titlesection{background-image:url(fatherson.jpg);background-size: cover;}
+#title{text-align: center;}
+.first-message-text{margin: 2%;}
+.second-message-text{margin:2%;}
+.final-message{padding:10%;text-align:center;}
+.pops{width:50%;height:auto;margin:2%;}
+.ima{width:70%;height:auto;}
+.grey{height:30px;}
+}
